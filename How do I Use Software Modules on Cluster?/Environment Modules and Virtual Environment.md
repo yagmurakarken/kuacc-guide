@@ -8,7 +8,8 @@ The commands for environment modules:
 - `module unload packageName`: Unloads the specified package with specified version 
 - `module purge`: Unload all packages from user environment.
 
-⚠️⚠️⚠️ Do not use wget or any other ways to install software. If you do you can have problems about job submitting and it will slow down your remote computer.
+⚠️⚠️⚠️ Do not use wget or any other ways to install software. If you do you can have problems about job submitting and it will slow down your remote computer.<br>
+
 ⚠️⚠️⚠️ You can load necessary module through job scripts or terminal. But, wise thing to do is creating a job script to load modules such as gcc, cuda and adding to .bashrc file or run it every time. You can create different job scripts which includes necessary modules for specific projects.
 If you want any other software installed, or a different version, send a request email ​hpc-support@ku.edu.tr.​ Please include a detailed information about the software like web page, version, license etc. Note that if the software requires a licence, the users of the software will need to purchase the licence.
 
@@ -61,8 +62,11 @@ conda remove -n env_name -all -y
 
  
 ⚠️⚠️⚠️ If you get an error like this while pip install in virtual environment:<br>
+
 `PermissionError: [Errno 13] Permission denied: '/kuacc/apps/anaconda/3.6….`<br>
+
 This is because the package you want to install tries to write under /kuacc/apps, which you do not have permission to access. Another reason is trying to remove the default packages that create env.<br>
+
 To fix the problem, you can force the home folder to be used by using the --user statement.<br>
 `pip install -r requirements.txt --user`
  
