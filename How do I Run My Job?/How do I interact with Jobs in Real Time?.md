@@ -32,7 +32,7 @@ Connect to cluster with X11 forwarding enabled.
 
 `ssh login.kuacc.ku.edu.tr –Xl username`
 
-Note: If you are using Mac, you may need to use Y depending on your x11 forwarding settings. Also, you need to install [xquartz] (https://www.xquartz.org/)
+Note: If you are using Mac, you may need to use Y depending on your x11 forwarding settings. Also, you need to install [xquartz](https://www.xquartz.org/)
 
 Submit an interactive job with x11 parameter and reserve a compute node.
 
@@ -57,9 +57,9 @@ Note: GUI session would be slow due to network connection. If you are using VPN,
 ## Software for Interactive Jobs:
 
 There are multiple software you can use for your interactive job:
-- If you use directly vi, vim check the [tmux page] (KUACC Guide/How do I Use Software Modules on Cluster?/Terminal Multiplexer(Tmux).md)
-- For setup PyCharm see the [procedure] (https://drive.google.com/file/d/1UAEKGEo8NOLMohmlJ2fZ04kOl-sZGPu2/view?usp=sharing)
-- or you can use Jupyter Notebook by submitting a Jupiter Notebook job. For Jupyter Notebook follow the [instructions] (https://drive.google.com/file/d/1AqxOrJLuIwkA-9TucEnh6cyjlBK6Hy9G/view?usp=sharing).
+- If you use directly vi, vim check the [tmux page](https://github.com/yagmurakarken/kuacc-guide/blob/master/How%20do%20I%20Use%20Software%20Modules%20on%20Cluster%3F/Terminal%20Multiplexer(Tmux).md)
+- For setup PyCharm see the [procedure](https://drive.google.com/file/d/1UAEKGEo8NOLMohmlJ2fZ04kOl-sZGPu2/view?usp=sharing)
+- or you can use Jupyter Notebook by submitting a Jupiter Notebook job. For Jupyter Notebook follow the [instructions](https://drive.google.com/file/d/1AqxOrJLuIwkA-9TucEnh6cyjlBK6Hy9G/view?usp=sharing).
 
 
 
