@@ -5,20 +5,20 @@
 
 `/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory`
 
-Despite this error the commands work. But if you want to solve the problem, you can follow the steps in [here] (https://www.fatalerrors.org/a/warning-setlocale-lc_ctype-cannot-change-locale-utf-8-no-such-file-or-directory.html).
+Despite this error the commands work. But if you want to solve the problem, you can follow the steps in [here](https://www.fatalerrors.org/a/warning-setlocale-lc_ctype-cannot-change-locale-utf-8-no-such-file-or-directory.html).
 
 ## If you are on campus:
 ### Windows
 Use MobaXterm. This is a GUI-based scp client for MS Windows-based computers that has a drag-and-drop
 facility and an inbuilt file editor. If you have cygwin installed, you can open a cygwin-terminal and then use ssh the
-same as Linux and Mac below.\
-● [Download MobaXterm] (https://mobaxterm.mobatek.net/documentation.html#2_3_3)
+same as Linux and Mac below.<br>
+● [Download MobaXterm](https://mobaxterm.mobatek.net/documentation.html#2_3_3)
 
 ### Linux and Mac
-**scp  on terminal:**\
+**scp  on terminal:**<br>
 `scp file-to-name USERNAME@login.kuacc.ku.edu.tr:/HOME_DIR/SUB_FOLDER/new-filename`
 
-This will copy the file to a SUB_FOLDER and renaming it to new-filename. The destination folder must be a valid address. So SUB_FOLDER must be an existing folder.\
+This will copy the file to a SUB_FOLDER and renaming it to new-filename. The destination folder must be a valid address. So SUB_FOLDER must be an existing folder.<br>
 
 As an example, lets copy a file from Desktop to home folder of HPC Cluster:
 
@@ -70,22 +70,22 @@ Then, I check whether I have rsync-test folder and Morse.jl folder under it on m
 
 
 
-**sftp or ftp client:**\
-Windows: Mobaxterm, Winscp, Filezilla\
-Linux: sftp, Filezilla\
-Mac: Cyberduck, Filezilla\
+**sftp or ftp client:**<br>
+Windows: Mobaxterm, Winscp, Filezilla<br>
+Linux: sftp, Filezilla<br>
+Mac: Cyberduck, Filezilla<br>
  
-Note: You should use following parameters.\
+Note: You should use following parameters.<br>
 
-Host: login.kuacc.ku.edu.tr\
-Username: KU-username\
-Password: KU-password\
-Port:22\
+Host: login.kuacc.ku.edu.tr<br>
+Username: KU-username<br>
+Password: KU-password<br>
+Port:22<br>
 
 ## If you are off campus:
 ### Google Drive/Dropbox:
-If your data is big and you are using VPN, previous solutions can be slow to copy files. You can use rclone tool with your Google Drive/Dropbox.\
-Firstly, you need to register to your Gdrive/Dropbox account. Then, you can follow the steps on:\
+If your data is big and you are using VPN, previous solutions can be slow to copy files. You can use rclone tool with your Google Drive/Dropbox.<br>
+Firstly, you need to register to your Gdrive/Dropbox account. Then, you can follow the steps on:<br>
 (https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/)
 
 ```
@@ -94,10 +94,10 @@ rclone ls remote:folder
 rclone lsd remote:folder
 rclone copy remote:folder  destination_folder
 ```
-You can find extended command list [here] (https://rclone.org/commands/).\
+You can find extended command list [here](https://rclone.org/commands/).<br>
 
 ### Mount your home folder over ssh(sshfs):
-This option is not very recommended but you can find the necessary documentation on:\
+This option is not very recommended but you can find the necessary documentation on:<br>
 (https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh)
 
 
@@ -112,7 +112,7 @@ For this example, we will mount workfolder on the cluster to the mountFolder.
 
 ![ssh-example](Images/ssh-2.png)
 
-Write the necessary sshfs command from your local terminal or tool that you use:\
+Write the necessary sshfs command from your local terminal or tool that you use:<br>
 
 `sshfs USERNAME@HOST:destination-of-folder-which-will-be-mounted destination-of-target-folder`
 
