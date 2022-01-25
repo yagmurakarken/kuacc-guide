@@ -2,12 +2,12 @@
 
 Please run your jobs inside these limits. If you need more resources, you will use public queues (short, mid, long, longer).
 
-## AI Partition User Limits: 
+## AI Partition User Limits: <br><br>
 
-**GPU Limit (max 8 GPU/user and max 8 jobs/user) :** Please use max 8 GPU while working in AI partition. Max job number is limited to 8 jobs with one GPU each.
-**CPU Limit (max 5cores/GPU, total max 40cores/user):** Please use max 5cores per GPU. Max core limit is 40cores per user.
-**Memory Limit (max 200GB/user):** Max memory limit is set to 200GB. If you need more than this limit, contact to hpc-support@ku.edu.tr.
-**Time Limit ( max 7days):** Max time limit is 7 days.
+**GPU Limit (max 8 GPU/user and max 8 jobs/user) :** Please use max 8 GPU while working in AI partition. Max job number is limited to 8 jobs with one GPU each.<br>
+**CPU Limit (max 5cores/GPU, total max 40cores/user):** Please use max 5cores per GPU. Max core limit is 40cores per user.<br>
+**Memory Limit (max 200GB/user):** Max memory limit is set to 200GB. If you need more than this limit, contact to hpc-support@ku.edu.tr.<br>
+**Time Limit ( max 7days):** Max time limit is 7 days.<br>
 
 **Important Notes:**
 
