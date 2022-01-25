@@ -3,7 +3,7 @@
 Jobs are not run directly from the command line, the user needs to create a job script which specifies both resources, libraries and the job’s application that is to be run.
 The script is submitted to SLURM (queueing system). If the requested resources are available on the system, the job will run. If not, it will be placed in a queue until such time as the resources do become available.
 Users need to understand how to use the queueing system, how to create the job script, as well as need to check its progress or delete a job from the queueing system.
-Before submitting a job script, be sure that you are using resources within limits. Check the [limitations for KUIS AI users] ().
+Before submitting a job script, be sure that you are using resources within limits. Check the [limitations for KUIS AI users](https://github.com/yagmurakarken/kuacc-guide/blob/master/What%20are%20the%20limitations%20for%20Users%20from%20KUIS%20AI%20Center%3F.md).
 
 ## Job Scripts:
 
