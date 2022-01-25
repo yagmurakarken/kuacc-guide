@@ -20,5 +20,5 @@ Job
 ## Batch and Interactive jobs
 All users must submit jobs to reserve resource and run their codes on cluster. There are two kinds of jobs which are called as interactive and batch jobs. See the batch and interactive jobs page for more information.
 
-- [How do I Write and Submit a Jobscript?](KUACC Guide/How do I Run My Job?/How do I Write and Submit a Jobscript?.md)
-- [How do I Interact with Jobs in Real Time?](KUACC Guide/How do I Run My Job?/How do I interact with Jobs in Real Time?.md)
+- [How do I Write and Submit a Jobscript?](https://github.com/yagmurakarken/kuacc-guide/blob/master/How%20do%20I%20Run%20My%20Job%3F/How%20do%20I%20Write%20and%20Submit%20a%20Jobscript%3F.md)
+- [How do I Interact with Jobs in Real Time?](https://github.com/yagmurakarken/kuacc-guide/blob/master/How%20do%20I%20Run%20My%20Job%3F/How%20do%20I%20interact%20with%20Jobs%20in%20Real%20Time%3F.md)
