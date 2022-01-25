@@ -105,5 +105,5 @@ This column lists nodes running jobs. Also, it gives the reason for Jobs state.
 |QOSGrpCpuLimit|	All CPUs assigned to your job’s specified QoS are in use; job will run eventually.|
 |QOSGrpNodeLimit|	All nodes assigned to your job’s specified QoS are in use; job will run eventually.|
  
-Check all Reasons codes in [following link](https://slurm.schedmd.com/squeue.html#lbAF).
+Check all Reasons codes in [following link](https://slurm.schedmd.com/squeue.html#lbAF).<br>
 Note: Most often you encounter with Priority, Resources and QOSMaxCpuPerUserLimit.
