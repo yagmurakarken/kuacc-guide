@@ -116,7 +116,7 @@ module load cuda/11.4
 module load 8.2.2/cuda-11.4
 ```
 
-For more information see the installing [software modules page] ().
+For more information see the installing [software modules page](https://github.com/yagmurakarken/kuacc-guide/blob/master/How%20do%20I%20Use%20Software%20Modules%20on%20Cluster%3F/Environment%20Modules%20and%20Virtual%20Environment.md).
 
 ### Running Code:
 
@@ -130,7 +130,7 @@ After preparing job script, it is submitted by sbatch command.
 
 
 |Command	|Description|
-| ------| ------------ | ----- | -------- | 
+| ------| ------------ |
 |sbatch<br><br>sbatch [script]|  Submit a batch job <br>Example:<br> $ sbatch job.sub|
 |scancel<br><br>scancel [job_id]| Kill a running job or cancel queued one <br> Example:<br>$ scancel 123456|
 |squeue<br><br>squeue| List running or pending jobs<br>Example:<br>$ squeue|
