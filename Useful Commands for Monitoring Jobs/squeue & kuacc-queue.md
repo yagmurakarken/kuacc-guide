@@ -1,4 +1,4 @@
-# squeue § kuacc-queue
+# squeue & kuacc-queue
 
 After submitting jobs, user needs to monitor jobs to check resource usage.
 **squeue:** views information about jobs located in the Slurm scheduling queue.<br>
