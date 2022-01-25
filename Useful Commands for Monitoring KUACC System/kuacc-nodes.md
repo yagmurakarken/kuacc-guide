@@ -77,7 +77,7 @@ ai[01-04,06-10] mixed 40 2:20:1 503000 0 gpu:tesla_t4:8                ai,ib,com
 **6248:** node with Intel Gold 6248 cpu<br>
 **e52695:** node with Intel e52695 cpu<br>
 
-⚠️⚠️⚠️ Some users needs to run their jobs on specific node. For example, on Intel Gold 6248 cpus. User can use 6248 feature in constraint flag and user limits jobs to run on 6248 cpus.
+⚠️⚠️⚠️ Some users needs to run their jobs on specific node. For example, on Intel Gold 6248 cpus. User can use 6248 feature in constraint flag and user limits jobs to run on 6248 cpus.<br>
 ⚠️⚠️⚠️ Any feature can be added into node available feature list.
 
 Examples:<br>
